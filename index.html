@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brittany Taylor | Originals Marketing Portfolio</title>
+  <meta name="description" content="A clean portfolio website for originals marketing strategy work." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to work</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Brittany Taylor home">Brittany Taylor</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="mailto:brittany.taylor@example.com">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">Originals Marketing Strategy</p>
+      <h1 id="hero-title">Campaign thinking for culture-driven entertainment.</h1>
+      <p class="hero-copy">A polished, editorial-style portfolio for strategy, creative positioning, launch planning, partner moments, and audience-first storytelling.</p>
+      <div class="hero-actions">
+        <a class="button" href="#work">View work</a>
+        <a class="button button-secondary" href="#about">About Brittany</a>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Selected capabilities">
+      <span>Campaign Strategy</span>
+      <span>Positioning</span>
+      <span>Launch Planning</span>
+      <span>Experiential</span>
+      <span>Awards</span>
+      <span>Social Conversation</span>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2 id="work-title">A simple, visual archive designed for easy project swaps.</h2>
+      </div>
+
+      <div class="filters" aria-label="Project filters">
+        <button class="filter is-active" data-filter="all">All</button>
+        <button class="filter" data-filter="launch">Launch</button>
+        <button class="filter" data-filter="experiential">Experiential</button>
+        <button class="filter" data-filter="awards">Awards</button>
+      </div>
+
+      <div class="work-grid">
+        <article class="project-card" data-category="launch">
+          <a href="project.html?project=weekly-dose" aria-label="Open Weekly Dose campaign case study">
+            <div class="project-art art-1"><span>01</span></div>
+            <div class="project-meta">
+              <h3>Weekly Dose</h3>
+              <p>Audience ritual, editorial cadence, and weekly conversation strategy.</p>
+            </div>
+          </a>
+        </article>
+        <article class="project-card" data-category="launch">
+          <a href="project.html?project=captain" aria-label="Open Captain campaign case study">
+            <div class="project-art art-2"><span>02</span></div>
+            <div class="project-meta">
+              <h3>Captain</h3>
+              <p>Brand positioning framework for a high-visibility originals launch.</p>
+            </div>
+          </a>
+        </article>
+        <article class="project-card" data-category="experiential">
+          <a href="project.html?project=hot-sheet" aria-label="Open Hot Sheet case study">
+            <div class="project-art art-3"><span>03</span></div>
+            <div class="project-meta">
+              <h3>Hot Sheet</h3>
+              <p>Internal and external storytelling system for fast-moving priorities.</p>
+            </div>
+          </a>
+        </article>
+        <article class="project-card" data-category="launch">
+          <a href="project.html?project=team-comedy" aria-label="Open Team Comedy case study">
+            <div class="project-art art-4"><span>04</span></div>
+            <div class="project-meta">
+              <h3>Team Comedy</h3>
+              <p>Slate narrative, campaign architecture, and audience segmentation.</p>
+            </div>
+          </a>
+        </article>
+        <article class="project-card" data-category="awards">
+          <a href="project.html?project=clios" aria-label="Open CLIOS case study">
+            <div class="project-art art-5"><span>05</span></div>
+            <div class="project-meta">
+              <h3>CLIOs</h3>
+              <p>Awards positioning, submission story, and creative effectiveness framing.</p>
+            </div>
+          </a>
+        </article>
+        <article class="project-card" data-category="experiential">
+          <a href="project.html?project=inspo" aria-label="Open Inspo case study">
+            <div class="project-art art-6"><span>06</span></div>
+            <div class="project-meta">
+              <h3>Inspo Lab</h3>
+              <p>Reference gathering, visual territories, and creative alignment toolkit.</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="about-title">Strategy-led marketing with a sharp eye for culture, comedy, and audience behavior.</h2>
+      </div>
+      <div class="about-copy">
+        <p>Use this space for a concise bio, written in first person or third person. Keep it confident, specific, and easy to scan.</p>
+        <p>Suggested positioning: I build audience-first campaigns for original series, balancing strategic rigor with creative instincts, operational clarity, and cross-functional momentum.</p>
+        <ul class="stats" aria-label="Portfolio highlights">
+          <li><strong>Originals</strong><span>Campaign strategy</span></li>
+          <li><strong>Culture</strong><span>Audience insight</span></li>
+          <li><strong>Launches</strong><span>Go-to-market planning</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Brittany Taylor. Replace placeholder copy, images, and email before publishing.</p>
+    <a href="#top">Return to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
